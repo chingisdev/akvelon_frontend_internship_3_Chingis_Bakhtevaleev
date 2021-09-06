@@ -1,6 +1,6 @@
 # Project Description
 This project was made as Akvelon internship task 1 by @chingisdev.\
-Task Goal: create picture-slider with disabling buttons on edges...
+Task Goal: create picture-slider with disabling buttons on edges.
 
 # Getting Started with Create React App
 
