@@ -19,14 +19,21 @@ function App() {
       }
   }
 
+  const resolveDisableStatus = (action) => {
+      if (action === buttonSliderAction.decrease) {
+          return imageIndex === 0;
+      } else {
+          return imageIndex === imageSrcContainer.length - 1;
+      }
+  }
+
   return (
     <div className={app.layout}>
       {/*left*/}
       <MyButton
           action={buttonSliderAction.decrease}
           onClick={onButtonClick}
-          curIndex={imageIndex}
-          limit={0}
+          disableStatus={resolveDisableStatus}
       />
       {/*image object*/}
       <MyImage imageSrc={imageSrcContainer[imageIndex]}/>
@@ -34,8 +41,7 @@ function App() {
       <MyButton
           action={buttonSliderAction.increase}
           onClick={onButtonClick}
-          curIndex={imageIndex}
-          limit={imageSrcContainer.length - 1}
+          disableStatus={resolveDisableStatus}
       />
     </div>
   );

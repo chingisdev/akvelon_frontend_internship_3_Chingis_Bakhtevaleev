@@ -6,8 +6,7 @@ const imageSrcContainer = [
     'https://images.unsplash.com/photo-1601588462076-51057bbf73cc?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTA3fHxib3hpbmd8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60',
     'https://images.unsplash.com/photo-1610650314750-c4c9eda6a031?ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTZ8fHNub3dib2FyZHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60',
     'https://images.unsplash.com/photo-1602699191434-4d6358b26afe?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bW90b3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60',
-    'https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVkaXRhdGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60',
-    'https://images.unsplash.com/photo-1630754157888-a806c0698710?ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwyfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60'
+    'https://images.unsplash.com/photo-1506126613408-eca07ce68773?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8bWVkaXRhdGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60'
 ];
 
 const buttonSliderAction = {
